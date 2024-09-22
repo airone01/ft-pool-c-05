@@ -6,7 +6,7 @@
 /*   By: elagouch <elagouch@42>                     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/09/22 23:17:30 by elagouch          #+#    #+#             */
-/*   Updated: 2024/09/22 23:25:38 by elagouch         ###   ########.fr       */
+/*   Updated: 2024/09/22 23:26:42 by elagouch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,11 +41,11 @@ int	ft_find_next_prime(int nb)
 	}
 }
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
-int	main(int argc, char **argv)
-{
-	(void) argc;
-	printf("%d", ft_find_next_prime(atoi(argv[1])));
-}
+// #include <stdio.h>
+// #include <stdlib.h>
+// #include <math.h>
+// int	main(int argc, char **argv)
+// {
+// 	(void) argc;
+// 	printf("%d", ft_find_next_prime(atoi(argv[1])));
+// }
